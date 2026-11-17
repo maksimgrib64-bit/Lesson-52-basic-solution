@@ -1,1 +1,3 @@
-int get_best_group(int* group1, int* group2, int* group3, int size);
+#define DEFAULT_SIZE 100
+
+int get_best_group(int groups[DEFAULT_SIZE][DEFAULT_SIZE],int row,int column);
